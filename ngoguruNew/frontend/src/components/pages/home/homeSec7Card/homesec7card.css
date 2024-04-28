@@ -1,0 +1,106 @@
+.homesec7card-content{
+    display: none;
+}
+.homesec7card{
+    /* background-color: aquamarine; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 30px;
+    border-radius: 10px;
+}
+.homesec7card:hover{
+    box-shadow: inset 0px 0px 0px 2000px #000f3277;
+}
+.homesec7card:hover>.homesec7card-content {
+    /* box-shadow: inset 0px 0px 0px 300px rgba(128, 128, 128, 0.329); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:blueviolet; */
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.homesec7card-content-1>h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+}
+.homesec7card-content-1>h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.homesec7card-content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homesec7card-content-2>span{
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+.homesec7card-content-2>span:hover{
+    background-color: #000f32ad;
+}
+
+@media only screen and (max-width:2200px) and (min-width:1700px){
+    .homesec7card{
+        /* background-color: aquamarine; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 450px;
+        display: flex;
+        align-items: flex-end;
+        margin: 15px 30px;
+        border-radius: 10px;
+    }
+
+}
+@media only screen and (max-width:1400px){
+    .homesec7card{
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width:1000px){
+    .homesec7card{
+        height: 250px;
+        width: 220px;
+        margin: 10px;
+    
+    }
+    .homesec7card-content-1>h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .homesec7card-content-1>h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .homesec7card-content-2>span{
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width:600px){
+    .homesec7card{
+        height: 300px;
+        width: 300px;
+    }
+
+}

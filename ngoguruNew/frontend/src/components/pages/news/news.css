@@ -1,0 +1,108 @@
+/* .update-content{
+    
+} */
+.update-mq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 0px;
+}
+
+.update-mq>h3{
+    width: 150px;
+    /* background-color: #000f32; */
+    background-color: chocolate;
+    color: #ffffff;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: 1px;
+    font-size: 15px;
+    padding:10px 10px;
+    font-weight: 500;
+    border: none;
+
+}
+.update-mq>.mq{
+    padding: 10px 20px;
+    font-size: 15px;
+    /* height: 30px; */
+    font-weight: 500;
+    background-color: rgb(245, 238, 238);
+}
+.update-list{
+    box-sizing: border-box;
+    background-color: #f8f1f1;
+    padding: 20px 80px;
+    /* height: 50vh; */
+}
+.update-list>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.update-list>ul>li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    box-shadow: -2px -2px 5px 5px #a1a1a17c;
+    background-color: #ffffff;
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    /* color: #A5233D; */
+    /* color: #A5233D; */
+    color: chocolate;
+}
+.news-download{
+    padding: 5px 15px;
+    border-bottom: 5px solid  #A5233D;
+    color: black;
+    background-color: aqua;
+}
+.update-download1:hover{
+    /* padding: 15px 15px; */
+    background-color: #5a5252;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #000f32;
+}
+.mq>span{
+    
+    color: #000f32;
+    color: chocolate;
+}
+.update-list-heading{
+    border-bottom: 2px solid chocolate;
+    font-size: 18px;
+    
+}
+.update-list-heading:hover{
+    border-bottom: 3px solid chocolate;
+    cursor: pointer;
+    /* color: #000f32; */
+}
+
+@media only screen and (max-width:550px) {
+    .update-mq>h3{
+        width: 160px;
+        padding:20px 3px;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .update-list{
+        padding: 15px 50px;
+    }
+    
+}
+
+@media only screen and (max-width:450px) {
+    .update-list{
+        padding: 10px 20px;
+    }
+    .update-download{
+        padding: 0px;
+    }
+    
+}

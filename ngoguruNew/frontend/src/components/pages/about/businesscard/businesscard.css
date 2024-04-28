@@ -1,0 +1,78 @@
+
+.businesscard{
+    margin: 40px;
+    /* box-shadow: 2px 2px 5px 5px rgb(218, 214, 214); */
+    /* padding: 30px 30px; */
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 450px;
+    transition: box-shadow 0.5s;
+}
+.businesscard-img{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.businesscard-img>img{
+    border-radius: 20px;
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 300px;
+    transition: height 0.3s, width 0.3s;
+    
+}
+
+/* .businesscard-img>img:hover{
+
+} */
+.businesscard>h3{
+    /* color: #078485; */
+    /* color: #5a89df; */
+    color: chocolate;
+    /* color: #5a89df; */
+    margin: 10px ;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    /* line-height: 50px; */
+    /* font-family: roboto; */
+}
+
+@media only screen and (max-width:1000px){
+    /* .businesscard-img{
+        width: 350px;
+    } */
+    /* .businesscard-img>img{
+        width: 300px;
+
+    } */
+    .businesscard-img>img:hover{
+        width: 310px;
+    }
+
+}
+@media only screen and (max-width:600px){
+    .businesscard{
+        margin: 20px 0px;
+        width: 300px;
+    }
+    .businesscard-img>img{
+        width: 100%;
+        height: 250px;
+    }
+    .businesscard>h3{
+        /* color: #078485; */
+        color: chocolate;
+        margin: 10px 0px ;
+        text-align: center;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+
+}

@@ -1,0 +1,99 @@
+.myHomeGallerySwiper {
+    width: 100%;
+    height: 400px;
+    /* height: 200px; */
+    /* padding-bottom: 20px; */
+    /* background-color: aquamarine; */
+} 
+
+  .myHomeGallerySwiperSlider {
+    width: 100%;
+    text-align: center;
+    /* font-size: 18px; */
+    /* background: #fff; */
+    /* height: 100%; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+  }
+  .myHomeGallerySwiperSlider>div{
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+  }
+  
+
+  .myHomeGallerySwiperSlider-content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-color: aquamarine; */
+  }
+  .myHomeGallerySwiperSlider-content>button{
+    padding: 10px 10px;
+    background-color: #000f32d7;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    /* font-family: roboto; */
+    border: 1px solid #000f32;
+    cursor: pointer;
+    margin: 10px 0px;
+    /* background: transparent; */
+  }
+  .myHomeGallerySwiperSlider-content>button:hover{
+    background-color: #ffffffc7;
+    color: #000f32;
+    
+  }
+  .myHomeGallerySwiperSlider>img{
+    height: 445px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  @media only screen and (max-width:1000px){
+    .myHomeGallerySwiperSlider-content>button{
+      padding: 5px 10px;
+      font-size: 15px;
+      font-weight: 500;
+      margin: 100px 0px;
+    }
+  }
+  @media only screen and (max-width:600px){
+    
+    .myHomeGallerySwiper{
+      height: 350px;
+    }
+    .myHomeGallerySwiperSlider {
+      /* height: 300px; */
+      height: 350px;
+    }
+    .myHomeGallerySwiperSlider>div{
+      /* padding: 10px; */
+      border-radius: 10px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+      /* background-color: aquamarine; */
+    }
+    .myHomeGallerySwiperSlider-content>button{
+      padding: 5px 10px;
+      font-size: 15px;
+      font-weight: 500;
+      margin: 30px 0px;
+    }
+
+
+
+  }

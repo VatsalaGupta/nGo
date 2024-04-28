@@ -1,0 +1,133 @@
+.visioncard{
+    /* padding: 20px; */
+    padding-bottom: 10px;
+    display: flex;
+    /* background-color: #F5F1F0; */
+     /* background-color: rgb(160, 149, 149); */
+     background-color: #ffffff;
+     box-shadow: 2px 2px 5px 5px #000000;
+    
+     border-radius: 4px;
+     /* background-color: rgb(17, 24, 24); */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+    width: 300px;
+    margin: 40px 40px;
+    /* box-shadow: 2px 2px 5px 5px #ccb8b4; */
+    /* transition: height 0.5s, width 0.5s;
+     */
+}
+.visioncard-img{
+    height:220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visioncard-img>img{
+    height: 220px;
+    width: 100%;
+    transition: height 0.2s, width 0.3s;
+    /* border-radius: 10px; */
+    background-color: #bba6a0;
+    /* border-radius: 15px; */
+    transition: width 0.3, height 0.3s;
+}
+.visioncard-img>img:hover{
+    height:210px ;
+    width: 235px;
+}
+.visioncard>h2{
+    /* color: #c9c2c2; */
+    /* color: #078485; */
+    /* color: #0f0f0f; */
+    color: #5a89df;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.visioncard>p{
+    /* color: #ffffff; */
+    /* color: #0f0f0f; */
+    color: rgb(87, 83, 83);
+    margin: 0px;
+    padding: 10px;
+    width: 250px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media only screen and (max-width:1000px){
+    .visioncard{
+        padding: 10px 5px;
+        width:180px;
+        margin: 10px;
+    }
+    .visioncard>h2{
+        font-size: 18px;
+    }
+    .visioncard>p{
+        width: 175px;
+    }
+    .visioncard-img{
+        width: 170px;
+        height: 275px;
+    }
+    .visioncard-img>img{
+        width: 150px;
+        height: 150px;
+    }
+    .visioncard-img>img:hover{
+        width: 160px;
+        height: 160px;
+
+    }
+
+}
+@media only screen and (max-width:600px){
+    .visioncard{
+        padding: 0px;
+        width: 300px;
+        margin: 20px 0px;
+    }
+    .visioncard-img{
+        height:220px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .visioncard-img>img{
+        height: 220px;
+        width: 300px;
+        transition: height 0.2s, width 0.3s;
+        /* border-radius: 10px; */
+        background-color: #bba6a0;
+        /* border-radius: 15px; */
+        transition: width 0.3, height 0.3s;
+    }
+    .visioncard>h2{
+        /* color: #c9c2c2; */
+        /* color: #078485; */
+        /* color: #0f0f0f; */
+        color: #5a89df;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0px;
+        padding: 5px 0px;
+    }
+    .visioncard>p{
+        /* color: #ffffff; */
+        /* color: #0f0f0f; */
+        color: rgb(87, 83, 83);
+        margin: 0px;
+        padding: 10px 10px;
+        width: 280px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+}

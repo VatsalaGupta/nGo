@@ -1,0 +1,112 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.myHomeSec10CardSwiper{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    /* background-color: aquamarine; */
+
+}
+  
+  .myHomeSec10CardSwiper-Slider {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* .myHomeSec10CardSwiper-Slider img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  .myHomeSec10CardSwiper-Slider-content{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: aquamarine; */
+  }
+  .myHomeSec10CardSwiper-Slider-content-1{
+    height: 270px ;
+    width: 310px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 20px;
+    border-radius: 10px;
+  }
+  .myHomeSec10CardSwiper-Slider-content-1>button{
+    padding: 5px 20px;
+    background-color: #000f32;
+    color: #ffffff;
+    border: 1px solid #000f32;
+    border-radius: 10px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .myHomeSec10CardSwiper-Slider-content-2>h2{
+    font-weight: 500;
+    color: #000f32;
+    font-size: 22px;
+    text-align: left;
+    margin: 15px 0px;
+  }
+  .myHomeSec10CardSwiper-Slider-content-3>h4{
+    font-weight: 500;
+    color: #000f32;
+    font-size: 16px;
+    text-align: left;
+    margin: 5px 0px;
+  }
+  .myHomeSec10CardSwiper-Slider-content-3>h4:hover{
+    border-bottom: 1px solid #000f32;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width:1000px){
+    .myHomeSec10CardSwiper-Slider-content{
+      width: 200px;
+    }
+    .myHomeSec10CardSwiper-Slider-content-1{
+      height: 200px ;
+      width: 200px;
+      padding: 20px 10px;
+    }
+    .myHomeSec10CardSwiper-Slider-content-1>button{
+      padding: 5px 10px;
+      /* line-height: 20px; */
+    }
+    .myHomeSec10CardSwiper-Slider-content-2>h2{
+      font-weight: 500;
+      color: #000f32;
+      font-size: 18px;
+      text-align: left;
+      margin: 15px 0px;
+    }
+    .myHomeSec10CardSwiper-Slider-content-3>h4{
+      font-size: 15px;
+    }
+
+  }
+  @media only screen and (max-width:600px){
+    .myHomeSec10CardSwiper-Slider-content{
+      width: 300px;
+    }
+    .myHomeSec10CardSwiper-Slider-content-1{
+      height: 300px ;
+      width: 300px;
+      padding: 10px 10px;
+    }
+
+  }
